@@ -8,6 +8,7 @@ export default function Nav() {
   const { user, profile, isAdmin, signOut } = useAuth();
   const [showAuth, setShowAuth] = useState(false);
   const [showAdmin, setShowAdmin] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const loc = useLocation();
   const active = (p) => loc.pathname === p || loc.pathname.startsWith(p + '/') ? 'active' : '';
 
@@ -17,11 +18,12 @@ export default function Nav() {
         <Link to="/" className="nav-logo">⬡ REALM SIEGE</Link>
         <ul className="nav-links">
           <li><Link to="/" className={active('/')}>Home</Link></li>
+          <li><Link to="/lore" className={active('/lore')}>Lore</Link></li>
           <li><Link to="/wiki" className={active('/wiki')}>Wiki</Link></li>
           <li><Link to="/towers" className={active('/towers')}>Towers</Link></li>
           <li><Link to="/bestiary" className={active('/bestiary')}>Bestiary</Link></li>
           <li><Link to="/items" className={active('/items')}>Items</Link></li>
-          <li><Link to="/loot" className={active('/loot')}>Loot Tables</Link></li>
+          <li><Link to="/loot" className={active('/loot')}>Loot</Link></li>
           <li><Link to="/heroes" className={active('/heroes')}>Heroes</Link></li>
           <li><Link to="/devlog" className={active('/devlog')}>Devlog</Link></li>
           {user

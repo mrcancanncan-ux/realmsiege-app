@@ -11,6 +11,7 @@ import Loot from './pages/Loot';
 import Heroes from './pages/Heroes';
 import Devlog from './pages/Devlog';
 import Elements from './pages/Elements';
+import Lore from './pages/Lore';
 import './styles.css';
 
 function NotFound() {
@@ -31,6 +32,7 @@ export default function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/lore" element={<Lore />} />
           <Route path="/wiki" element={<Wiki />} />
           <Route path="/wiki/how-to-play" element={<HowToPlay />} />
           <Route path="/wiki/elements" element={<Elements />} />
