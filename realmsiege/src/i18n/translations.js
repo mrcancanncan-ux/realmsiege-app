@@ -1,140 +1,54 @@
 export const translations = {
   en: {
-    nav: {
-      home: 'Home', lore: 'Lore', wiki: 'Wiki', towers: 'Towers',
-      bestiary: 'Bestiary', items: 'Items', loot: 'Loot Tables',
-      heroes: 'Heroes', devlog: 'Devlog', signin: 'Sign In', admin: 'Admin',
-    },
+    nav: { home:'Home', lore:'Lore', wiki:'Wiki', towers:'Towers', bestiary:'Bestiary', items:'Items', loot:'Loot', heroes:'Heroes', devlog:'Devlog', signin:'Sign In', signout:'Sign Out', admin:'Admin' },
     home: {
-      eyebrow: 'An Isometric Tower Defense RPG',
-      subtitle: 'Coming to Steam · PC · 16-bit Pixel Art',
-      tagline: 'A thousand skills. Elemental towers that fuse and evolve. Bosses that curse the land. Mobs that resist you.',
-      cta_primary: 'Get Notified',
-      cta_secondary: 'Explore Wiki',
-      countdown_label: '// Next Major Update',
-      progress_title: 'Overall Completion — v0.0.1 Release Target',
-      section_status: '// Development Status',
-      section_status_title: 'Current Build Progress',
-      section_status_intro: 'Live progress updated directly from the developer. No marketing fluff.',
-      roadmap_label: '// Roadmap',
-      roadmap_title: "What's Being Built",
-      roadmap_intro: 'Transparent development — every phase, every feature, every milestone.',
-      features_label: '// Features',
-      features_title: 'What Makes It Different',
-      features_intro: 'Every system designed to reward mastery and punish carelessness.',
-      newsletter_title: 'Be First to Know',
-      newsletter_sub: 'Get notified when the Steam page goes live and when major updates drop. No spam.',
-      newsletter_btn: 'Notify Me',
-      newsletter_success: "✓ You'll be notified when we launch.",
-      newsletter_email: 'your@email.com',
-      steam_title: 'Wishlist on Steam',
-      steam_sub: 'Steam page coming soon. Wishlisting helps us get visibility at launch.',
-      steam_btn: 'Steam Page — Coming Soon',
-      in_dev: 'In Development',
+      eyebrow:'An Isometric Tower Defense RPG',
+      subtitle:'Coming to Steam · PC · 16-bit Pixel Art',
+      tagline:'A thousand skills. Elemental towers that fuse and evolve. Bosses that curse the land. Mobs that resist you.',
+      cta1:'Get Notified', cta2:'Explore Wiki',
+      cd_label:'// Next Major Update',
+      status_label:'// Development Status', status_title:'Current Build Progress', status_intro:'Live progress updated directly from the developer.',
+      road_label:'// Roadmap', road_title:"What's Being Built", road_intro:'Transparent development — every phase, every milestone.',
+      feat_label:'// Features', feat_title:'What Makes It Different', feat_intro:'Every system designed to reward mastery and punish carelessness.',
+      nl_title:'Be First to Know', nl_sub:'Get notified when the Steam page goes live. No spam.', nl_btn:'Notify Me', nl_ph:'your@email.com', nl_ok:"✓ You'll be notified.", nl_dupe:'Already subscribed!', nl_err:'Something went wrong.',
+      steam_title:'Wishlist on Steam', steam_sub:'Steam page coming soon. Wishlisting helps at launch.', steam_btn:'Steam Page — Coming Soon',
+      in_dev:'In Development', version:'Current Version', next_update:'Next Update', stage:'Stage',
     },
-    common: {
-      search: 'Search...',
-      all: 'All',
-      loading: 'Loading...',
-      no_results: 'No results found.',
-      back_wiki: '← Wiki',
-      version: 'Current Version',
-      next_update: 'Next Update',
-      stage: 'Stage',
-      read_more: 'Read More',
-      close: 'Close',
-    },
-    auth: {
-      join: 'Join the Realm',
-      join_sub: 'Create an account to comment on devlogs and follow development.',
-      signin: 'Sign In',
-      signup: 'Sign Up',
-      email: 'Email',
-      password: 'Password',
-      username: 'Username',
-      signin_btn: 'Sign In',
-      signup_btn: 'Create Account',
-      signing_in: 'Signing in...',
-      creating: 'Creating...',
-      username_required: 'Username is required.',
-      confirm_email: 'Account created! Check your email to confirm.',
-    },
-    footer: {
-      copy: '© 2026 Realm Siege · All Rights Reserved · Built with Godot 4 · Coming to Steam',
-    },
+    auth: { join:'Join the Realm', join_sub:'Create an account to comment on devlogs.', signin:'Sign In', signup:'Sign Up', email:'Email', password:'Password', username:'Username', signing_in:'Signing in...', creating:'Creating...', username_req:'Username is required.', confirm:'Check your email to confirm.' },
+    common: { all:'All', search:'Search...', loading:'Loading...', none:'No results found.', back:'← Wiki' },
+    footer: { copy:'© 2026 Realm Siege · All Rights Reserved · Built with Godot 4 · Coming to Steam' }
   },
   tr: {
-    nav: {
-      home: 'Ana Sayfa', lore: 'Hikaye', wiki: 'Wiki', towers: 'Kuleler',
-      bestiary: 'Canavar Kitabı', items: 'Eşyalar', loot: 'Loot Tabloları',
-      heroes: 'Kahramanlar', devlog: 'Geliştirme Günlüğü', signin: 'Giriş Yap', admin: 'Yönetici',
-    },
+    nav: { home:'Ana Sayfa', lore:'Hikaye', wiki:'Wiki', towers:'Kuleler', bestiary:'Canavar Kitabı', items:'Eşyalar', loot:'Loot', heroes:'Kahramanlar', devlog:'Günlük', signin:'Giriş Yap', signout:'Çıkış', admin:'Yönetici' },
     home: {
-      eyebrow: 'İzometrik Kule Savunma RPG',
-      subtitle: "Steam'e Geliyor · PC · 16-bit Piksel Sanatı",
-      tagline: 'Bin yetenek. Birleşip evrilen elementel kuleler. Diyarı lanetleyen boslar. Sana direnen canavarlar.',
-      cta_primary: 'Haberdar Ol',
-      cta_secondary: 'Wiki\'yi Keşfet',
-      countdown_label: '// Sonraki Büyük Güncelleme',
-      progress_title: 'Genel Tamamlanma — v0.0.1 Hedefi',
-      section_status: '// Geliştirme Durumu',
-      section_status_title: 'Mevcut Yapı İlerlemesi',
-      section_status_intro: 'Doğrudan geliştiriciden canlı güncellenen ilerleme. Pazarlama yok.',
-      roadmap_label: '// Yol Haritası',
-      roadmap_title: 'Neler Yapılıyor',
-      roadmap_intro: 'Şeffaf geliştirme — her aşama, her özellik, her kilometre taşı.',
-      features_label: '// Özellikler',
-      features_title: 'Farkı Yaratan Nedir',
-      features_intro: 'Her sistem, ustalığı ödüllendirmek ve dikkatsizliği cezalandırmak için tasarlandı.',
-      newsletter_title: 'İlk Sen Haberdar Ol',
-      newsletter_sub: "Steam sayfası yayınlandığında ve büyük güncellemeler geldiğinde seni haberdar edelim. Spam yok.",
-      newsletter_btn: 'Haberdar Et',
-      newsletter_success: '✓ Yayına geçtiğimizde bildirim alacaksın.',
-      newsletter_email: 'eposta@adresin.com',
-      steam_title: "Steam'de İstek Listesine Ekle",
-      steam_sub: "Steam sayfası yakında. İstek listesine eklemek yayında görünürlüğümüze yardımcı oluyor.",
-      steam_btn: "Steam Sayfası — Yakında",
-      in_dev: 'Geliştiriliyor',
+      eyebrow:'İzometrik Kule Savunma RPG',
+      subtitle:"Steam'e Geliyor · PC · 16-bit Piksel Sanatı",
+      tagline:'Bin yetenek. Birleşip evrilen elementel kuleler. Diyarı lanetleyen boslar. Sana direnen canavarlar.',
+      cta1:'Haberdar Ol', cta2:"Wiki'yi Keşfet",
+      cd_label:'// Sonraki Büyük Güncelleme',
+      status_label:'// Geliştirme Durumu', status_title:'Mevcut Yapı İlerlemesi', status_intro:'Doğrudan geliştiriciden canlı güncellenen ilerleme.',
+      road_label:'// Yol Haritası', road_title:'Neler Yapılıyor', road_intro:'Şeffaf geliştirme — her aşama, her kilometre taşı.',
+      feat_label:'// Özellikler', feat_title:'Farkı Yaratan Nedir', feat_intro:'Her sistem ustalığı ödüllendirmek için tasarlandı.',
+      nl_title:'İlk Sen Haberdar Ol', nl_sub:'Steam sayfası yayınlandığında bildirim al. Spam yok.', nl_btn:'Haberdar Et', nl_ph:'eposta@adresin.com', nl_ok:'✓ Yayına geçtiğimizde bildirim alacaksın.', nl_dupe:'Zaten kayıtlısın!', nl_err:'Bir sorun oluştu.',
+      steam_title:"Steam'de İstek Listesine Ekle", steam_sub:'Steam sayfası yakında.', steam_btn:'Steam Sayfası — Yakında',
+      in_dev:'Geliştiriliyor', version:'Mevcut Sürüm', next_update:'Sonraki Güncelleme', stage:'Aşama',
     },
-    common: {
-      search: 'Ara...',
-      all: 'Tümü',
-      loading: 'Yükleniyor...',
-      no_results: 'Sonuç bulunamadı.',
-      back_wiki: '← Wiki',
-      version: 'Mevcut Sürüm',
-      next_update: 'Sonraki Güncelleme',
-      stage: 'Aşama',
-      read_more: 'Devamını Oku',
-      close: 'Kapat',
-    },
-    auth: {
-      join: 'Diyara Katıl',
-      join_sub: 'Geliştirme günlüklerine yorum yapmak ve gelişmeleri takip etmek için hesap oluştur.',
-      signin: 'Giriş Yap',
-      signup: 'Kayıt Ol',
-      email: 'E-posta',
-      password: 'Şifre',
-      username: 'Kullanıcı Adı',
-      signin_btn: 'Giriş Yap',
-      signup_btn: 'Hesap Oluştur',
-      signing_in: 'Giriş yapılıyor...',
-      creating: 'Oluşturuluyor...',
-      username_required: 'Kullanıcı adı zorunludur.',
-      confirm_email: 'Hesap oluşturuldu! Onay için e-postanı kontrol et.',
-    },
-    footer: {
-      copy: '© 2026 Realm Siege · Tüm Hakları Saklıdır · Godot 4 ile Yapıldı · Steam\'e Geliyor',
-    },
+    auth: { join:'Diyara Katıl', join_sub:'Geliştirme günlüklerine yorum yapmak için hesap oluştur.', signin:'Giriş Yap', signup:'Kayıt Ol', email:'E-posta', password:'Şifre', username:'Kullanıcı Adı', signing_in:'Giriş yapılıyor...', creating:'Oluşturuluyor...', username_req:'Kullanıcı adı zorunludur.', confirm:'Onay için e-postanı kontrol et.' },
+    common: { all:'Tümü', search:'Ara...', loading:'Yükleniyor...', none:'Sonuç bulunamadı.', back:'← Wiki' },
+    footer: { copy:"© 2026 Realm Siege · Tüm Hakları Saklıdır · Godot 4 ile Yapıldı · Steam'e Geliyor" }
   }
 };
 
-export const getLang = () => localStorage.getItem('rs_lang') || 'en';
-export const setLang = (l) => localStorage.setItem('rs_lang', l);
-export const t = (path) => {
-  const lang = getLang();
+export const getLang = () => {
+  try { return localStorage.getItem('rs_lang') || 'en'; } catch { return 'en'; }
+};
+export const setLang = l => {
+  try { localStorage.setItem('rs_lang', l); } catch {}
+};
+export const t = (path, lang) => {
+  const l = lang || getLang();
   const keys = path.split('.');
-  let obj = translations[lang];
+  let obj = translations[l] || translations.en;
   for (const k of keys) { obj = obj?.[k]; }
   return obj || path;
 };
